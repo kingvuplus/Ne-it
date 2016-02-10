@@ -17,8 +17,10 @@ enigma2_SOURCES = \
 	xmlgenerator.h \
 	version_info.cpp \
 	version_info.h \
-	version.h
-
+	version.h \
+	nemtool.cpp \
+        nemtool.h
+        
 enigma2_LDADD_WHOLE = \
 	$(top_builddir)/lib/actions/libenigma_actions.a \
 	$(top_builddir)/lib/base/libenigma_base.a \
