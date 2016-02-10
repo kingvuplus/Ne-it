@@ -109,6 +109,7 @@ is usually caused by not marking PSignals as immutable.
 #include <lib/python/python.h>
 #include <lib/python/python_helpers.h>
 #include <lib/gdi/picload.h>
+#include <main/nemtool.h>
 %}
 
 %feature("ref")   iObject "$this->AddRef(); /* eDebug(\"AddRef (%s:%d)!\", __FILE__, __LINE__); */ "
@@ -158,6 +159,7 @@ typedef long time_t;
 %include <lib/service/event.h>
 %include <lib/service/iservice.h>
 %include <lib/service/service.h>
+%include <main/nemtool.h>
 
 // TODO: embed these...
 %immutable ePicLoad::PictureData;
