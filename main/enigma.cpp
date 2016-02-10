@@ -34,6 +34,7 @@
 
 #include "bsod.h"
 #include "version_info.h"
+#include "nemtool.h"
 
 #include <gst/gst.h>
 
